@@ -1,8 +1,38 @@
-body {
-    background-color: lightblue;
-    }
-    
-    h1 {
-    color: navy;
-    margin-left: 20px;
-    }
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: #95a5a6;
+    width: 30%;
+}
+.container_main{
+    background-color: #ecf0f1;
+    flex: 1;
+    overflow: auto;
+    min-height: 100%;
+    margin-left: 10px;
+}
+.list_wrapper{
+    padding: 20px;
+    height: 100%;
+}
+li{
+    padding: 10px;
+    list-style-type: none;
+}
+a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.card{
+   padding-left: 30px;
+}
+.btn_primary{
+    padding: 20px;
+    width: 10%;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
